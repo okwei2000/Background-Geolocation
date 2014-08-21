@@ -71,6 +71,7 @@ var app = {
             //
             //
             bgGeo.finish();
+            document.getElementById('app').innerHTML += "yourAjaxCallback is called <br>";
         };
 
         /**
