@@ -70,8 +70,9 @@ var app = {
             // IF YOU DON'T, ios will CRASH YOUR APP for spending too much time in the background.
             //
             //
+			alert('called');
             bgGeo.finish();
-            document.getElementById('app').innerHTML += "yourAjaxCallback is called <br>";
+            //document.getElementById('app').innerHTML += "yourAjaxCallback is called <br>";
         };
 
         /**
